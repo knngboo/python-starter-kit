@@ -1,7 +1,9 @@
-first_name = "Max"
-last_name = "Boxer"
+pi = 3.14159
+print(pi)
 
-first_name = input("Please enter your first name: ")
-last_name = input("Please enter your last name: ")
-full_name = f"Hello, {first_name.capitalize()} {last_name.capitalize()}"
-print(full_name)
+first_num = input("Please enter a number: ")
+second_num = input("Now enter a second number: ")
+print(float(first_num) ** float(second_num))
+
+third_num = input("Please enter a new number: ")
+print(str(third_num) + " is the number of push ups you must do now. LOL")
