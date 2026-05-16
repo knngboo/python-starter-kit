@@ -1,10 +1,13 @@
-# date formatting
-from datetime import datetime
+# mini bday calculator
+from datetime import datetime, timedelta
 
-# store the current date in a variable
-date = datetime.now()
+# enter bday
+bday_input = input("When is your birthday? (mm/dd/yyyy)")
+# reformat bday
+bday_date = datetime.strptime(bday_input, "%d/%m/%Y")
+# create time change
+time_change = timedelta(days=3)
+# calculate new bday
+new_bday = bday_date - time_change
 
-# individually print the data
-print("The month is: " + str(date.month))
-print("The day is: " + str(date.day))
-print("The year is: " + str(date.year))
+print(new_bday)
