@@ -1,10 +1,9 @@
-# demo with numbers
-pi = 3.14159
-print(pi)
+# dates
 
-first_num = input("Please enter a number: ")
-second_num = input("Now enter a second number: ")
-print(float(first_num) ** float(second_num))
+# import function from library
+from datetime import datetime
 
-third_num = input("Please enter a new number: ")
-print(str(third_num) + " is the number of push ups you must do now. LOL")
+# call the datetime function
+date = datetime.now()
+
+print("The date is: " + str(date))
