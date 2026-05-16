@@ -1,15 +1,10 @@
-# dates
+# date formatting
+from datetime import datetime
 
-# import function from library
-from datetime import datetime, timedelta
-
-# call the datetime function
+# store the current date in a variable
 date = datetime.now()
-print("The date is: " + str(date))
 
-# create the change in time
-time = timedelta(days=1)
-
-# calculate change in time
-date2 = date - time
-print("Yesterday was: " + str(date2))
+# individually print the data
+print("The month is: " + str(date.month))
+print("The day is: " + str(date.day))
+print("The year is: " + str(date.year))
