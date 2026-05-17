@@ -30,10 +30,10 @@ arcade.draw_text("draw_line", 243, 405, arcade.color.BLACK, 9)
 arcade.draw_line(270, 495, 300, 450, arcade.color.WOOD_BROWN, 3)
 arcade.draw_text("draw_lines", 363, 405, arcade.color.BLACK, 9)
 point_list = ((390, 450),
-              (390, 480),
-              (390, 510),
               (450, 450),
+              (390, 480),
               (450, 480),
+              (390, 510),
               (450, 510))
 arcade.draw_lines(point_list, arcade.color.BLUE, 3)
 
