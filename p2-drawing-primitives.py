@@ -48,19 +48,19 @@ arcade.draw_line_strip(point_list, arcade.color.TROPICAL_RAIN_FOREST, 3)
 
 arcade.draw_text("draw_polygon_outline",3, 207, arcade.color.BLACK, 9)
 point_list = ((30, 240),
-              (30, 300),
               (45, 240),
-              (45, 300),
               (60, 255),
-              (60, 285),)
+              (60, 285),
+              (45, 300),
+              (30, 300))
 arcade.draw_polygon_outline(point_list, arcade.color.SPANISH_VIOLET, 3)
 arcade.draw_text("draw_polygon_filled", 123, 207, arcade.color.BLACK, 9)
 point_list = ((150, 240),
-              (150, 300),
               (165, 240),
-              (165, 300),
               (180, 255),
-              (180, 285))
+              (180, 285),
+              (165, 300),
+              (150, 300))
 arcade.draw_polygon_filled(point_list, arcade.color.SPANISH_VIOLET)
 
 arcade.draw_text("circle_outline", 243, 207, arcade.color.BLACK, 9)
