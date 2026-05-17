@@ -39,10 +39,10 @@ arcade.draw_lines(point_list, arcade.color.BLUE, 3)
 
 arcade.draw_text("draw_line_strip", 483, 405, arcade.color.BLACK, 9)
 point_list = ((510, 450),
-              (510, 480),
-              (510, 510),
               (570, 450),
+              (510, 480),
               (570, 480),
+              (510, 510),
               (570, 510))
 arcade.draw_line_strip(point_list, arcade.color.TROPICAL_RAIN_FOREST, 3)
 
